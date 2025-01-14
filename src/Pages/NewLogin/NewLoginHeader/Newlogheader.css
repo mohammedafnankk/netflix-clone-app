@@ -1,0 +1,56 @@
+.new-login{
+    background-image: url(https://repository-images.githubusercontent.com/299409710/b42f7780-0fe1-11eb-8460-e459acd20fb4);
+    width: 100%;
+    height: 120vh;
+    box-shadow: 40px 40px 40px 0 rgb(0, 0, 0) inset,
+    -40px -40px 40px 0 rgb(0, 0, 0) inset;
+    
+}
+.input-box-x{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.input-box-x .sign-up{
+    margin-top: 15%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px 199px 50px 60px;
+    border-radius: 10px;
+}
+.input-box-x .sign-up h1{
+    color: white;
+    padding-bottom: 30px;
+}
+.input-box-x input{
+    padding: 1.5rem 1rem 0.5rem;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(205, 196, 196);
+    margin-bottom: 40px;
+    /* margin-left: -10px; */
+    width: 170%;
+}
+
+.input-box-x .btn-signup{
+    background-color: #cc0808;
+    /* margin-left: 70px; */
+    width: 170%;
+    padding: 15px;
+}
+.input-box-x .btn-signup .signup-link{
+    color: white;
+    text-decoration: none;
+    
+}
+.input-box-x .btn-signup:hover{
+    background-color: #b90d0d;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance:none ;
+  
+}

@@ -26,7 +26,17 @@
 .sign-button button {
   background-color: #cc0808;
   padding: 10px 20px;
-  
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+  margin-right: 1rem;
 }
 .sign-button button:hover {
   color: white;

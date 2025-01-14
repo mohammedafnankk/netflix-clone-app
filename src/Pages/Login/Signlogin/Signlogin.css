@@ -40,6 +40,16 @@
     background-color: #cc0808;
     width: 97%;
     padding: 15px;
+    color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 0.8rem;
+  cursor: pointer;
+  margin-right: 1rem;
 
 }
 .btn-sign button:hover{
@@ -56,7 +66,15 @@
     padding: 15px 90px;
     width: 89%;
     text-align: center;
-
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-bottom: .8rem;
+    background-color: rgba(51, 51, 51, 0.5);
+    cursor: pointer;
+    margin-right: 1rem;
 }
 .login .forgot{
     text-align: center;

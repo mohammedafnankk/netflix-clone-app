@@ -68,7 +68,7 @@ function Login() {
             <span>Remember me</span>
             <p className="new">
               New to Netflix?
-              <Link to="/signup">Sign up now.</Link>
+              <Link to="/">Sign up now.</Link>
             </p>
             <p className="protected">
               This page is protected by Google reCAPTCHA to <br /> ensure you're

@@ -39,7 +39,10 @@ function RowPost(props) {
         } else {
           alert("Trailer not found");
         }
-      });
+      }).catch((error)=>{
+        alert("Trailer not found");
+        
+      })
   };
 
   return (

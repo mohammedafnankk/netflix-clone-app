@@ -15,7 +15,12 @@ function Banner() {
             return 0.1 - Math.random();
           })[5]
         );
-      });
+      }).catch((error)=>{
+        console.log(error);
+        
+        
+        
+      })
   }, []);
 
   const NumberFormat = ({ number }) => {
